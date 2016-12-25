@@ -13,7 +13,7 @@ public class Mode {
     static Record[] rc=new Record[10];
     public static void main(String args[]) throws FileNotFoundException, IOException
     {
-        BufferedReader CSV1=new BufferedReader(new FileReader("C://Users//manvi//Desktop//missing.csv"));
+        BufferedReader CSV1=new BufferedReader(new FileReader("C://Users//Desktop//missing.csv"));
         String data=CSV1.readLine();
         data=CSV1.readLine();
         int i=0;
